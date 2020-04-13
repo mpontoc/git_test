@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[pt_BR]=gnome-panel-launcher
+Name[pt_BR]=Spring
+Exec=/home/mpontoc/Documentos/spring-tool-suite-4-4.6.0.RELEASE-e4.15.0-linux.gtk.x86_64/sts-4.6.0.RELEASE/SpringToolSuite4
+Name=Spring
+Icon=/home/mpontoc/Documentos/spring-tool-suite-4-4.6.0.RELEASE-e4.15.0-linux.gtk.x86_64/sts-4.6.0.RELEASE/icon.xpm
+StartupWMClass=Spring
+StartupNotify=true
+
