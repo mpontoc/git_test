@@ -16,4 +16,10 @@ Find package activity on android by windows
 
 adb shell dumpsys window windows | findstr <any unique string from your pkg Name>
 ex: adb shell dumpsys window windows | findstr calc  
-  
+
+
+https://medium.com/@ivantay2003/appium-desired-capabilities-basic-cheat-sheet-to-launch-mobile-application-ios-android-75b664367031
+
+adb shell
+dumpsys window windows | grep -E 'mCurrentFocus'
+dumpsys window windows | grep -E ‘mFocusedApp’
