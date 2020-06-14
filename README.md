@@ -11,3 +11,9 @@ mvn -Dcucumber.options="--tags @Test" test
 
 Rerun
 -Dtest=ReRun -DfailIfNoTests=false -Dsurefire.rerunFailingTestsCount=2 test
+
+Find package activity on android by windows
+
+adb shell dumpsys window windows | findstr <any unique string from your pkg Name>
+ex: adb shell dumpsys window windows | findstr calc  
+  
