@@ -23,3 +23,17 @@ https://medium.com/@ivantay2003/appium-desired-capabilities-basic-cheat-sheet-to
 adb shell
 dumpsys window windows | grep -E 'mCurrentFocus'
 dumpsys window windows | grep -E ‘mFocusedApp’
+
+
+XCUIElementTypeButton 
+XCUIElementTypeOther 
+XCUIElementTypeStaticText 
+XCUIElementTypeWindow 
+XCUIElementTypeApplication 
+XCUIElementTypeNavigationBar 
+XCUIElementTypeTableCell
+XCUIElementTypeCell
+
+System.out.println(driver.getPageSource());
+
+https://medium.com/swlh/3-ways-to-find-element-selector-for-ios-app-with-appium-5e44be8bf2c9
